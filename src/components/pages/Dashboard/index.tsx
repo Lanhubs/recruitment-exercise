@@ -14,7 +14,7 @@ import PropertyCards from './components/PropertyCards'
 import Navigation, { NavItem } from './components/Navigation'
 import { FiSearch } from "react-icons/fi"
 const Dashboard = () => {
-  const handleNavItemClick = (index: number, item: NavItem) => {
+  const handleNavItemClick = (_: number, item: NavItem) => {
     console.log('Navigation clicked:', item.label, item.href)
     // Add your navigation logic here
   }

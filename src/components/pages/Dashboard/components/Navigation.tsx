@@ -1,4 +1,4 @@
-import { Box, Flex, Text, HStack } from '@chakra-ui/react'
+import { Box, Flex, Text} from '@chakra-ui/react'
 import { IconType } from 'react-icons'
 import { RiBriefcase2Fill, RiBriefcase2Line } from 'react-icons/ri'
 import { PiReceipt, PiReceiptFill } from 'react-icons/pi'

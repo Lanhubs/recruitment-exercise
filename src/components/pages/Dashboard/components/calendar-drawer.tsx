@@ -109,7 +109,8 @@ const CalendarDrawer = ({
         setCurrentDate(new Date(year, month + 1, 1))
     }
 
-    const handleDateClick = (day: number, isCurrentMonth: boolean, isNextMonth: boolean) => {
+    const handleDateClick = (day: number, isCurrentMonth: boolean) => {
+
         if (!isCurrentMonth) return
 
         const newDate = new Date(year, month, day)
@@ -251,7 +252,7 @@ const CalendarDrawer = ({
                                                                 : {}
                                                         }
                                                         cursor={isCurrentMonth ? "pointer" : "default"}
-                                                        onClick={() => handleDateClick(day, isCurrentMonth, isNextMonth)}
+                                                        onClick={() => handleDateClick(day, isCurrentMonth)}
                                                     >
                                                         {day}
                                                         {/* Show "DEC 1" for December 1st */}

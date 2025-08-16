@@ -44,7 +44,7 @@ const Dashboard = () => {
 
           <Box gap={8}
             bg={{ base: "white", md: "transparent" }}
-            
+            zIndex={"max"}
             pos={{ base: "fixed", lg: "relative" }} bottom={0} left={0} right={0} display={"flex"}>
 
             {
